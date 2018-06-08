@@ -57,7 +57,7 @@ int validarPasaporte(char *cad){
     }
     ptr=strtok(NULL, " ,.-");
   }
-  cout << "\nNo entiendo, se mas especifico";
+  cout << "\nNo entiendo, se mas especifico" << endl;
   return ban;
 }
 
@@ -73,7 +73,7 @@ int validarClima(char *cade){
     }
     pch=strtok(NULL, " ,.-");
   }
-  cout << "\nNo entiendo, se mas especifico";
+  cout << "\nNo entiendo, se mas especifico" << endl;
   return b;
 }
 
